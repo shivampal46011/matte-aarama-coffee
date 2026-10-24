@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 192" width="400" role="img" aria-label="Matte Aarama? Coffee mark"><style>@import url("https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Instrument+Serif:ital@0;1&amp;display=swap");</style><path d="M66,34 C66,15 84,6 101,6 C120,6 134,19 134,35 C134,51 121,57 111,63 C103,68 100,74 100,82" fill="none" stroke="#ffc72c" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80,72 C74,64 84,58 79,50" fill="none" stroke="#ffc72c" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M121,76 C127,69 118,63 123,56" fill="none" stroke="#ffc72c" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M66,92 L134,92 L126,158 L74,158 Z" fill="#24160f"/>
+  <rect x="60" y="84" width="80" height="12" rx="6" fill="#24160f"/>
+  <path d="M68,108 L132,108 M70,122 L130,122" stroke="#fffaf1" stroke-width="3"/>
+  <path d="M30,148 L170,148 L163,172 Q158,186 142,186 L58,186 Q42,186 37,172 Z" fill="#24160f"/>
+  <rect x="24" y="142" width="152" height="11" rx="5.5" fill="#24160f"/>
+  <path d="M40,166 L160,166" stroke="#fffaf1" stroke-width="3"/></svg>

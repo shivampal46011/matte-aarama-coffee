@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matte Aarama? Coffee</title>
+<meta name="description" content="South Indian filter kaapi from Bengaluru, with an exclusive Matte Aarama? story in every pack. Pre-order now.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:"Satoshi";src:url(satoshi.woff2) format("woff2");font-weight:300 900;font-display:swap}
+:root{
+  --decoction:#24160f; --decoction-2:#2f1d14; --roast:#4a2c1d;
+  --cream:#f4eee2; --cream-2:#e9dfcc; --paper:#fffaf1;
+  --mic:#ffc72c; --kumkum:#7a2620; --coorg:#1f3a2c; --ink:#1b120c; --muted:#7b6a5a;
+  --wordmark:"Young Serif",Georgia,serif; --serif:"Instrument Serif",Georgia,serif;
+  --sans:"Satoshi",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+body{background:var(--cream);color:var(--ink);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{background:var(--decoction);color:var(--cream)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.nav img{height:40px}
+.cartbtn{background:var(--mic);color:var(--ink);border:0;border-radius:999px;padding:10px 16px;font:600 15px var(--sans);cursor:pointer}
+.hero{padding:44px 0 56px}
+.tag{display:inline-block;background:var(--kumkum);color:var(--cream);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600;letter-spacing:.02em}
+h1{font-family:var(--wordmark);font-weight:400;font-size:clamp(36px,7vw,64px);line-height:1.05;margin:16px 0 14px}
+h1 em{font-family:var(--serif);color:var(--mic)}
+.hero p{max-width:560px;color:#e9dfcc;font-size:18px}
+.perks{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.perks span{border:1px solid #f4eee233;border-radius:999px;padding:6px 12px;font-size:14px}
+section{padding:48px 0}
+h2{font-family:var(--wordmark);font-weight:400;font-size:clamp(26px,4vw,36px);margin-bottom:6px}
+.sub{color:var(--muted);margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.card{background:var(--paper);border:1px solid #1b120c14;border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.card .ph{background:var(--cream-2);aspect-ratio:1/1;display:grid;place-items:center}
+.card .ph img{max-width:82%;max-height:88%;object-fit:contain}
+.card .bd{padding:18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h3{font-family:var(--wordmark);font-weight:400;font-size:22px}
+.meta{color:var(--muted);font-size:14px}
+.price{font-size:22px;font-weight:700;margin-top:4px}
+.price small{font-size:13px;font-weight:500;color:var(--muted)}
+.qty{display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:10px}
+.qty button{width:38px;height:38px;border-radius:12px;border:1px solid #1b120c26;background:#fff;font-size:20px;cursor:pointer}
+.qty b{min-width:24px;text-align:center;font-size:18px}
+.add{flex:1;height:40px;border-radius:12px;border:0;background:var(--decoction);color:var(--cream);font:600 15px var(--sans);cursor:pointer}
+.soon{opacity:.7}
+.soon .add{background:var(--cream-2);color:var(--muted);cursor:default}
+.story{background:var(--coorg);color:var(--cream);border-radius:24px;padding:28px}
+.story p{max-width:640px;color:#e9dfcc;margin-top:8px}
+form{background:var(--paper);border:1px solid #1b120c14;border-radius:20px;padding:22px;display:grid;gap:14px}
+label{display:grid;gap:6px;font-weight:600;font-size:14px}
+input,textarea,select{font:16px var(--sans);padding:12px;border-radius:12px;border:1px solid #1b120c26;background:#fff;color:var(--ink);width:100%}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.summary{background:var(--cream-2);border-radius:14px;padding:14px;font-size:15px}
+.summary div{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
+.summary .tot{font-weight:700;font-size:18px;border-top:1px solid #1b120c26;margin-top:6px;padding-top:8px}
+.send{height:52px;border-radius:14px;border:0;background:#1f8f4e;color:#fff;font:700 17px var(--sans);cursor:pointer}
+.send:disabled{background:#9aa;cursor:not-allowed}
+.note{font-size:13px;color:var(--muted)}
+.faq details{background:var(--paper);border:1px solid #1b120c14;border-radius:14px;padding:14px 16px;margin-bottom:10px}
+.faq summary{font-weight:600;cursor:pointer}
+.faq p{margin-top:8px;color:var(--muted)}
+footer{background:var(--decoction);color:#b9a690;padding:28px 0;font-size:14px}
+@media (max-width:560px){.row2{grid-template-columns:1fr}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <img src="img/logo-primary-light-on-dark.svg" alt="Matte Aarama? Coffee">
+    <button class="cartbtn" onclick="document.getElementById('order').scrollIntoView({behavior:'smooth'})">Order · <span id="cartCount">0</span></button>
+  </div>
+  <div class="wrap hero">
+    <span class="tag">Pre-orders open · First batch</span>
+    <h1>Kaapi first.<br><em>Then the real answer.</em></h1>
+    <p>Bengaluru filter kaapi, freshly roasted and ground for the davara. Every pack carries an exclusive story from the street that you won't see on the show.</p>
+    <div class="perks"><span>Freshly roasted in small batches</span><span>Free delivery on 2+ packs</span><span>Pay after we confirm</span></div>
+  </div>
+</header>
+
+<main>
+<section class="wrap">
+  <h2>The first batch</h2>
+  <p class="sub">250 g valve pouches, ground for filter. Pick your strength.</p>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="wrap">
+  <div class="story">
+    <h2>A story in every pack</h2>
+    <p>Matte Aarama? stops people on Bengaluru's streets with one question. Some answers are too good for a reel. We print them on the pack, so each batch carries a different one.</p>
+  </div>
+</section>
+
+<section class="wrap" id="order">
+  <h2>Place your pre-order</h2>
+  <p class="sub">Your order opens in WhatsApp. We confirm the dispatch date and share payment details there. No payment on this page.</p>
+  <form id="f" onsubmit="return sendOrder(event)">
+    <div class="summary" id="summary"></div>
+    <div class="row2">
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Phone (WhatsApp)<input name="phone" required inputmode="tel" pattern="[0-9+ ]{10,15}" autocomplete="tel"></label>
+    </div>
+    <label>Delivery address<textarea name="addr" rows="3" required autocomplete="street-address"></textarea></label>
+    <div class="row2">
+      <label>Pincode<input name="pin" required inputmode="numeric" pattern="[0-9]{6}"></label>
+      <label>Grind
+        <select name="grind"><option>Filter (davara / South Indian filter)</option><option>Coarse (French press / cold brew)</option><option>Fine (espresso / moka pot)</option></select>
+      </label>
+    </div>
+    <label>Note (optional)<input name="note" placeholder="Gift, preferred delivery time…"></label>
+    <button class="send" id="sendBtn" type="submit" disabled>Send order on WhatsApp</button>
+    <p class="note">Delivery: free on 2 or more packs, otherwise ₹60. Bengaluru first, rest of India soon.</p>
+  </form>
+</section>
+
+<section class="wrap faq">
+  <h2>Questions</h2>
+  <details><summary>When will my order arrive?</summary><p>This is a pre-order for our first batch. We'll message you on WhatsApp with the dispatch date before you pay.</p></details>
+  <details><summary>How do I pay?</summary><p>After we confirm your order on WhatsApp, we send UPI details. Nothing is charged on this page.</p></details>
+  <details><summary>What's chicory, and why 80:20?</summary><p>Roasted chicory root gives filter kaapi its body and that thick, frothy davara pour. 80:20 is the classic Bengaluru darshini taste; 70:30 is stronger and darker; Pure Filter has no chicory.</p></details>
+  <details><summary>How should I store it?</summary><p>Squeeze out the air, zip it shut and keep it away from heat and sunlight. Best within 2–3 months of opening.</p></details>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">Matte Aarama? Coffee · Bengaluru · <a href="mailto:social@matteaarama.com">social@matteaarama.com</a></div>
+</footer>
+
+<script>
+const WA = "918692041285";
+const SHIP = 60, FREE_FROM = 2;
+const P = [
+  {id:"classic", name:"Filter Kaapi · Classic", meta:"80:20 coffee-chicory · Chikmagalur", price:399, img:"img/pouch-classic.png"},
+  {id:"strong",  name:"Filter Kaapi · Strong",  meta:"70:30 coffee-chicory · darker roast", price:379, img:"img/pouch-strong.png"},
+  {id:"pure",    name:"Pure Filter",            meta:"100% coffee, no chicory · Coorg", price:549, img:"img/pouch-pure.png"},
+  {id:"instant", name:"Instant Kaapi",          meta:"100 g jar", price:null, img:"img/jar-instant.png"},
+  {id:"cold",    name:"Cold Kaapi",             meta:"250 ml cold brew", price:null, img:"img/bottle-cold-kaapi.png"},
+];
+const cart = {};
+try { Object.assign(cart, JSON.parse(localStorage.getItem("ma_cart") || "{}")); } catch (e) {}
+const save = () => { try { localStorage.setItem("ma_cart", JSON.stringify(cart)); } catch (e) {} };
+
+function render() {
+  document.getElementById("grid").innerHTML = P.map(p => p.price ? `
+    <div class="card"><div class="ph"><img src="${p.img}" alt="${p.name} pouch" loading="lazy"></div>
+    <div class="bd"><h3>${p.name}</h3><div class="meta">${p.meta}</div>
+    <div class="price">₹${p.price} <small>250 g · incl. taxes</small></div>
+    <div class="qty">${cart[p.id] ? `<button type="button" onclick="chg('${p.id}',-1)" aria-label="Remove one">−</button><b>${cart[p.id]}</b><button type="button" onclick="chg('${p.id}',1)" aria-label="Add one">+</button>` : `<button class="add" type="button" onclick="chg('${p.id}',1)">Add to order</button>`}</div></div></div>` : `
+    <div class="card soon"><div class="ph"><img src="${p.img}" alt="${p.name}" loading="lazy"></div>
+    <div class="bd"><h3>${p.name}</h3><div class="meta">${p.meta}</div><div class="qty"><button class="add" type="button" disabled>Coming soon</button></div></div></div>`).join("");
+  const items = P.filter(p => cart[p.id]);
+  const n = items.reduce((a, p) => a + cart[p.id], 0);
+  const sub = items.reduce((a, p) => a + cart[p.id] * p.price, 0);
+  const ship = n === 0 ? 0 : (n >= FREE_FROM ? 0 : SHIP);
+  document.getElementById("cartCount").textContent = n;
+  document.getElementById("summary").innerHTML = n ? items.map(p => `<div><span>${cart[p.id]} × ${p.name}</span><span>₹${cart[p.id] * p.price}</span></div>`).join("") +
+    `<div><span>Delivery${n < FREE_FROM ? " (free on 2+ packs)" : ""}</span><span>${ship ? "₹" + ship : "Free"}</span></div><div class="tot"><span>Total</span><span>₹${sub + ship}</span></div>`
+    : "Add a pack above to start your order.";
+  document.getElementById("sendBtn").disabled = n === 0;
+  return {items, n, sub, ship};
+}
+function chg(id, d) { cart[id] = Math.max(0, (cart[id] || 0) + d); if (!cart[id]) delete cart[id]; save(); render(); }
+function sendOrder(e) {
+  e.preventDefault();
+  const {items, sub, ship} = render(); if (!items.length) return false;
+  const f = new FormData(e.target);
+  const lines = ["Hi! New Matte Aarama? Coffee pre-order ☕", ""]
+    .concat(items.map(p => `• ${cart[p.id]} × ${p.name} (250 g) = ₹${cart[p.id] * p.price}`))
+    .concat([`Delivery: ${ship ? "₹" + ship : "Free"}`, `*Total: ₹${sub + ship}*`, "",
+      `Grind: ${f.get("grind")}`, `Name: ${f.get("name")}`, `Phone: ${f.get("phone")}`,
+      `Address: ${f.get("addr")}, ${f.get("pin")}`]).concat(f.get("note") ? [`Note: ${f.get("note")}`] : []);
+  window.open(`https://wa.me/${WA}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank");
+  return false;
+}
+render();
+</script>
+</body>
+</html>
